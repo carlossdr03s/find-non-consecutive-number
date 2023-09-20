@@ -1,0 +1,29 @@
+{
+  "name": "find-non-consecutive-number",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlossdr03s/find-non-consecutive-number.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlossdr03s/find-non-consecutive-number/issues"
+  },
+  "homepage": "https://github.com/carlossdr03s/find-non-consecutive-number#readme",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
