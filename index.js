@@ -7,15 +7,15 @@ function firstNonConsecutive(arr) {
     const firstNumber = arr[i];
     const secondNumber = arr[i + 1] === undefined ? arr[arr.length -1] : arr[i + 1];
 
-    if (firstNumber + 1 !== secondNumber) {
+    if (firstNumber + 1 !== secondNumber && arr[arr.length - 1] !== firstNumber) {
       return firstNumber + 1;
-    }
+    } 
   }
 
-  return arr;
+  return null;
 }
 
-console.log(firstNonConsecutive([1, 2, 3, 4, 5, 7]));
+console.log(firstNonConsecutive([1, 2, 3, 4, 5, 6, 7]));
  
 
 module.exports = firstNonConsecutive;
